@@ -81,17 +81,6 @@ python run_most.py 1 "mnistm32_60_10,mnist32_60_10,usps32,svhn" syn32 format mat
 |  LtC-MSDA [5]   |   85.6   |   99.0   |   98.3   |   83.2   |   93.0   |   91.8   |
 | **MOST** (ours) | **93.4** | **99.6** | **98.4** | **90.9** | **97.8** | **96.0** |
 
-## Parameter Sensitivity
-
-| <img src="figs\most_alpha.png" style="zoom:20%;" /> | <img src="figs\most_beta.png" style="zoom:20%;" /> | <img src="figs\most_gamma.png" style="zoom:20%;" /> |
-| :-------------------------------------------------: | -------------------------------------------------- | --------------------------------------------------- |
-
-## Feature visualization
-
-| <img src="figs\tsne_ResNet101.png" style="zoom:20%;" /> | <img src="figs\tsne_MOST.png" style="zoom:20%;" /> |
-| :-----------------------------------------------------: | :------------------------------------------------: |
-|                       ResNet-101                        |                        MOST                        |
-
 ## References
 
 [1] H. Zhao, S. Zhang, G. Wu, J. M. F. Moura, J. P. Costeira, and G. J Gordon. Adversarial multiple source domain adaptation. In S. Bengio, H. Wallach, H. Larochelle, K. Grauman, N. CesaBianchi, and R. Garnett, editors, Advances in Neural Information Processing Systems 31, pages 8559-8570. Curran Associates, Inc., 2018 .
