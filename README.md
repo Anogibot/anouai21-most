@@ -89,9 +89,9 @@ python run_most.py 1 "mnistm32_60_10,mnist32_60_10,usps32,svhn" syn32 format mat
 
 ## Feature visualization
 
-| <img src="figs\ema0_toC.png" style="zoom:20%;" /> | <img src="figs\ema16000_toC.png" style="zoom:20%;" /> |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                          ResNet-101                          |                             MOST                             |
+| <img src="figs\tsne_ResNet101.png" style="zoom:20%;" /> | <img src="figs\tsne_MOST.png" style="zoom:20%;" /> |
+| :-----------------------------------------------------: | :------------------------------------------------: |
+|                       ResNet-101                        |                        MOST                        |
 
 ## References
 
