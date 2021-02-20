@@ -18,7 +18,6 @@ Tensorflow: >= 1.9
 **Install automatically from YAML file**
 
 ```
-pip install --upgrade pip
 conda env create --file tf1.9py3.5.yml
 ```
 
@@ -27,16 +26,15 @@ conda env create --file tf1.9py3.5.yml
 Please note that tensorbayes 0.4.0 is out of date. Please copy a newer version to the *env* folder (tf1.9py3.5) using **tensorbayes.tar**
 
 ```
-pip install tensorbayes
 tar -xvf tensorbayes.tar
-cp -rf ./tensorbayes/* /opt/conda/envs/tf1.9py3.5/lib/python3.5/site-packages/tensorbayes/
+cp -rf /tensorbayes/* /opt/conda/envs/tf1.9py3.5/lib/python3.5/site-packages/tensorbayes/
 ```
 
 ### Install Datasets
 
 To run on Digits-five dataset, in the root folder, please create a new folder named *datasets*.  
 
-At the next step, user downloads Digits-five dataset [here](https://drive.google.com/file/d/1uTUoSQaw18EIEtOHqPHqo2uEpTf6z38d/view?usp=sharing) and save it into *datasets* folder.
+At the next step, user downloads Digits-five dataset [here](https://drive.google.com/file/d/12dUT_xBfikgsjYI6w9FyAKvx1UIz-Ccg/view?usp=sharing) and save it into *datasets* folder.
 
 ## Training
 
@@ -82,6 +80,18 @@ python run_most.py 1 "mnistm32_60_10,mnist32_60_10,usps32,svhn" syn32 format mat
 |    MDDA [4]     |   78.6   |   98.8   |   93.9   |   79.3   |   89.7   |   88.1   |
 |  LtC-MSDA [5]   |   85.6   |   99.0   |   98.3   |   83.2   |   93.0   |   91.8   |
 | **MOST** (ours) | **93.4** | **99.6** | **98.4** | **90.9** | **97.8** | **96.0** |
+
+## Parameter Sensitivity
+
+| <img src="figs\most_alpha.png" style="zoom:20%;" /> | <img src="figs\most_beta.png" style="zoom:20%;" /> | <img src="figs\most_gamma.png" style="zoom:20%;" /> |
+| :-------------------------------------------------: | -------------------------------------------------- | --------------------------------------------------- |
+|                                                     |                                                    |                                                     |
+
+## Feature visualization
+
+| <img src="figs\ema0_toC.png" style="zoom:20%;" /> | <img src="figs\ema16000_toC.png" style="zoom:20%;" /> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                          ResNet-101                          |                             MOST                             |
 
 ## References
 
