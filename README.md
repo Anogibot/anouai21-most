@@ -85,7 +85,6 @@ python run_most.py 1 "mnistm32_60_10,mnist32_60_10,usps32,svhn" syn32 format mat
 
 | <img src="figs\most_alpha.png" style="zoom:20%;" /> | <img src="figs\most_beta.png" style="zoom:20%;" /> | <img src="figs\most_gamma.png" style="zoom:20%;" /> |
 | :-------------------------------------------------: | -------------------------------------------------- | --------------------------------------------------- |
-|                                                     |                                                    |                                                     |
 
 ## Feature visualization
 
